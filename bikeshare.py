@@ -320,8 +320,7 @@ def user_stats(df,city):
         print('User Most Recent Year of Birth: {}'.format(stats['max']))
         print('User Most Common Year of Birth: {}'.format(df['Birth Year'].mode()[0]))
     except KeyError as err:
-        print('Attempt to get Year of Birth info')
-        print('{} Error Occur! No Year of Birth Info find'.format(err))
+        print('Attempt to get Year of Birth info\n{} Error Occur! No Year of Birth Info find'.format(err))
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
