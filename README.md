@@ -12,6 +12,10 @@ bikeshare.py
 
 Software Required:
 * Python 3.0 *
+Python Library Required:
+* Pandas     *
+* Numpy      *
+* matplotlib *
 
 **data files(Not in repository):**
 * chicago.csv      *
