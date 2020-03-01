@@ -17,3 +17,5 @@ https://chartio.com/resources/tutorials/how-to-save-a-plot-to-a-file-using-matpl
 
 2. combine 2 columns in a specific type in pandas
 https://stackoverflow.com/questions/19377969/combine-two-columns-of-text-in-dataframe-in-pandas-python
+
+3. Udacity Nano Program Programming for Data Science with Python
