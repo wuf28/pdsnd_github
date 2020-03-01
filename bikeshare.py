@@ -326,13 +326,13 @@ def user_stats(df,city):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     num=0
-    section = 5
+    # section = 5
     while True:
         print('Do you want to view the row data?')
         raw = input('Type Here[y/n]: ').lower()
         if (raw == 'y' and num<df.shape[0]-1):
-            print(df.iloc[num:min(num+section,df.shape[0])])
-            num+=section
+            print(df.iloc[num:min(num+5,df.shape[0])])
+            num+=5
             continue
         elif (raw == 'n' or num>=df.shape[0]-1):
             break
