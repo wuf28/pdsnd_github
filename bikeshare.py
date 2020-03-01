@@ -16,7 +16,6 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
-    # print('*'*60)
     print('Hello! Let\'s explore some US bikeshare data!')
     print('-'*60)
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
@@ -30,7 +29,6 @@ def get_filters():
                 city = citys[num_in].lower()
                 print('\n{} is the city you select\n'.format(city).upper())
                 print('City Enter Successful! Enter Next Step!')
-                print('-'*60)
                 break
             else:
                 print('The Number You Entered is NOT Among [0,1,2]!')
