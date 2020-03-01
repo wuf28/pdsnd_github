@@ -10,6 +10,9 @@ Using Pandas in Python to analyze the data in Chicago, New York City and Washing
 ### Files used
 bikeshare.py
 
+Software Required:
+* Python 3.0 *
+
 **data files(Not in repository):**
 * chicago.csv      *
 * new_york_city.csv*
